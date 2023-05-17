@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+:root{
+	--color-azul:#19adf4;	
+	--color-gris:#f3f3f3;
+	--color-titulos:#3c3838;
+	--color-subtitulo:#888;
+	--fondo-footer: #383737;
+	--color-footer:#fff;
+	--color-numeros:#e6e8eb
+
+}
+body{
+	font-family:'Montserrat', sans-serif;
+	color: var(--color-base);
+	font-size: 14px;
+}
+header{
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	z-index: 2000;
+	width: 100%;
+}
+
+.btn-nav{
+	border-radius: 70%;
+	border-bottom-color: #f3f3f3;
+	background-color: transparent;
+}
+
+#hero{
+	background-image: url("../img/header_bg.jpg") !important;
+	padding: 7%;
+	background-size: cover
+}
+#hero h1{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	color: #FFFFFF
+}
+#hero p{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #888585;
+}
+
+#Coaches{
+	background-color: #f3f3f3;
+	padding: 7%;
+}
+
+#Coaches p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	color: #888585
+}
+
+#Coaches h2{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	color: #3c3838
+}
+
+#Welcome p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	color: #888585
+}
+
+#Welcome h1{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	color: #3c3838
+}
+
+#Welcome {
+	padding: 7%;
+}
+
+#Welcome h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	color:  #e6e8eb
+}
+
+#Welcome h3{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	color:  #3c3838
+}
+
+#Coaches h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	color: #888585
+}
+
+#Coaches h3{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	color: #3c3838;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+#how-was p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #888585
+}
+
+#how-was h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #888585;
+	padding-top: 80px;
+}
+
+#how-was h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	color: #3c3838;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#Gallery h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	color: #3c3838;
+	padding-bottom: 10px;
+}
+
+#Gallery{
+	background-color: #f3f3f3;
+	padding: 7%; 
+}
+
+#footer{
+	background-color: #fff;
+}
